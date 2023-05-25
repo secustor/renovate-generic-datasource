@@ -1,9 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ['config:base'],
+  "extends": ["config:base"],
   "regexManagers": [
     {
-      "fileMatch": ["k3s.version"],
+      "fileMatch": ["k3s.vesion"],
       "matchStrings": ["(?<currentValue>.*)"],
       "depNameTemplate": "*",
       "datasourceTemplate": "custom.k3s"
