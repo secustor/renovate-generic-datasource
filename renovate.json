@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "regexManagers": [
     {
-      "fileMatch": ["k3s.vesion"],
+      "fileMatch": ["k3s.version"],
       "matchStrings": ["(?<currentValue>.*)"],
       "depNameTemplate": "*",
       "datasourceTemplate": "custom.k3s"
