@@ -4,7 +4,7 @@
   "regexManagers": [
     {
       "fileMatch": ["k3s.version"],
-      "matchStrings": ["(?<currentValue>.*)"],
+      "matchStrings": ["^(?<currentValue>.*)$"],
       "depNameTemplate": "*",
       "datasourceTemplate": "custom.k3s"
     }
