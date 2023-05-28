@@ -6,6 +6,7 @@
       "fileMatch": ["k3s.version"],
       "matchStrings": ["^(?<currentValue>.*)$"],
       "depNameTemplate": "*",
+      "versioningTemplate": "semver-coerced",
       "datasourceTemplate": "custom.k3s"
     }
   ]
