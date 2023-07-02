@@ -5,7 +5,8 @@
     {
       "fileMatch": ["k3s.version"],
       "matchStrings": ["(?<currentValue>\\S+)"],
-      "depNameTemplate": "*",
+      "depNameTemplate": "k3s",
+      "packageNameTemplate": "*",
       "versioningTemplate": "semver-coerced",
       "datasourceTemplate": "custom.k3s"
     }
